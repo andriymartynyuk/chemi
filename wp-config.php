@@ -41,10 +41,10 @@ if (!function_exists('getenv_docker')) {
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', getenv_docker('WORDPRESS_DB_NAME', 'u974178077_8uNQ0') );
+define( 'DB_NAME', getenv_docker('WORDPRESS_DB_NAME', 'chemi') );
 
 /** Database username */
-define( 'DB_USER', getenv_docker('WORDPRESS_DB_USER', 'u974178077_trRPP') );
+define( 'DB_USER', getenv_docker('WORDPRESS_DB_USER', 'chemi') );
 
 /** Database password */
 define( 'DB_PASSWORD', getenv_docker('WORDPRESS_DB_PASSWORD', 'Pop3130408') );
