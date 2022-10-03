@@ -1,0 +1,45 @@
+@media (min-width: 1660px) {
+
+  .rtl #customize-theme-controls #sub-accordion-section-indro_customizer_header_builder,
+  .rtl #customize-theme-controls #sub-accordion-section-indro_customizer_footer_builder {
+    right: 18%;
+    left: 0;
+  }
+}
+
+.rtl .customize-control-indro_blank_control .indro-builder-tab-toggle {
+  left: 10px;
+  right: auto;
+}
+
+.rtl .indro-builder-item>.indro-builder-item-icon {
+  margin-right: 0;
+  margin-left: -10px;
+}
+
+.rtl .indro-builder-item>.indro-builder-item-icon.indro-move-icon {
+  margin-right: -10px;
+  margin-left: 0;
+}
+
+.rtl .indro-builder-item>.indro-builder-item-icon svg.dashicons-arrow-right-alt2 {
+  transform: rotate(180deg);
+}
+
+.rtl .indro-builder-areas.popup-vertical-group {
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+.rtl #customize-theme-controls .add-new-menu-item,
+#customize-theme-controls .add-new-widget {
+  float: right;
+}
+
+.rtl .footer-column-row .indro-builder-area:last-child {
+  border-right: 1px dashed #A0AEC0;
+}
+
+.rtl .footer-column-row .indro-builder-area:first-child {
+  border-right: 0;
+}
